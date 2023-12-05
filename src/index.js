@@ -4,4 +4,4 @@ const app = express();
 
 app.use(express.static('./www'));
 
-app.listen(process.env.PORT || 8000);
+app.listen(process.env.PORT || 80);
